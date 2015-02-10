@@ -44,7 +44,7 @@ Basically, everyone who receives a Mermur is getting it from one of these number
 
 ## Usage
 
-So if you've used Mermur before, you already know how simple it is. There is almost no need for this usage section. For new-comers, we've left a non-working test server deployed at [mermur.meteor.com](https://mermur.meteor.com) if you want to get an idea of how it works. Just for clarity, here are the steps.
+So if you've used Mermur before, you already know how simple it is. There is almost no need for this usage section. For new-comers, we've left a test server deployed at [test.mermur.it](http://test.mermur.it) if you want to get an idea of how it works. Just for clarity, here are the steps.
 
 * Select the 'Send Mermur' Button
 * Enter 10-Digit Phone Number
@@ -52,7 +52,7 @@ So if you've used Mermur before, you already know how simple it is. There is alm
 * Agree to Terms and Conditions
 * Hit Send!
 
-NOTICE: Meteor currently supports US numbers, however you can change the code easily to  adjust to international numbers. 
+NOTICE: Mermur currently supports US numbers, however you can change the code easily to  adjust to international numbers. 
 
 ## Contributing
 
