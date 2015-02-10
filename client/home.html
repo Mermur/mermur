@@ -1,0 +1,64 @@
+<head>
+    <script text="text/javascript">
+        function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        // Added to allow decimal, period, or delete
+        if (charCode == 110 || charCode == 190 || charCode == 46) 
+            return true;
+        
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) 
+            return false;
+        return true;
+        }
+    </script>
+</head>
+<template name="home">
+    <section class="mermur-bruh" id="homepage">
+
+        <div class="frame">
+            <div class="bit-1">
+                <h1>MERMUR</h1>
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="bit-1">
+                <p class="bg-text"><span>Anonymous text messages. No replies. Go ahead, Mermur something.</span></p>
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="bit-1">
+                <button class="send-mermur">
+                    <p>SEND A MERMUR</p>
+                </button>
+            </div>
+        </div>
+
+        <div id="overlay">
+          <div id="registration">
+            <div class="close">Close</div>
+            <h1>CREATE YOUR MERMUR</h1>
+            <form>
+                <input maxlength="10" placeholder="Recipient Phone Number" class="phone" onkeypress="return isNumberKey(event)"/>
+                <textarea placeholder="Mermur anything you want!" class="sms-message" maxlength="133"></textarea>
+                <div class="terms-check">
+                    <input type="checkbox" class="check" checked="{{agreementChecked}}" />
+                    I agree to Mermur's Terms, Conditions, and Do's and Dont's
+                </div>
+                <div class="send">
+                    <button>SEND MERMUR</button>
+                </div>
+            </form>    
+          </div>
+        </div>
+
+        <div class="footer-links">
+            <ul>    
+                <li><a href="{{pathFor 'dodonts'}}">Do's and Dont's</a></li>
+                <li><a href="{{pathFor 'privacy'}}">Privacy Policy</a></li>
+                <li><a href="{{pathFor 'terms'}}">Terms of Use</a></li>
+            </ul>
+        </div>
+    </section>
+</template>
