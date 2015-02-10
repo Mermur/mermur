@@ -58,3 +58,11 @@ NOTICE: Meteor currently supports US numbers, however you can change the code ea
 
 We know we have only scraped the surface on what can be done with Mermur, so we are handing it over to the public to blossom. Feel free to customize and add/remove whatever code you wish in your own build. However, if you feel like contributing to our original repo....more to come. (still updating the README..thanks!).
 
+## Donations
+
+If you could find it in your great big heart to donate at least $1 you will help us out so much! When you donate you help us pay for our servers, our Plivo account that sends the messages, the time it takes for us to develop Mermur itself and reply to all the support inquiries we get!
+
+TL;DR: In the long run none of this stuff would be possible without you and we tremendously appreciate your help
+
+[Donation Page](https://gumroad.com/l/DlQf)
+
